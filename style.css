@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    /* border: 2px solid white; */
+    width: 330px;
+    height: 380px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 36%;
+    margin-top: 120px;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 2px;
+}
+
+
+
+img {
+    height: 80px;
+
+}
+
+body {
+    background-image: url(https://images.hdqwalls.com/wallpapers/clouds-hd.jpg);
+    background-repeat: no-repeat;
+}
+
+input {
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.con {
+    margin-top: 20px;
+}
+
+p.dgeree {
+    margin-top: -10px;
+    font-size: 34px;
+}
+
+p.wind {
+    margin-right: 140px;
+    margin-top: 80px;
+}
+
+
+p.time {
+    margin-top: -18px;
+    margin-left: 204px;
+}
+
+input::placeholder {
+    color: black;
+    /* font-size: 18px; */
+}
+
+@media(max-width:720px){
+    input {
+        border: 0;
+        background-color: transparent;
+        outline: 0;
+        margin-left: 130px;
+        margin-top: 40px;
+        height: 10px;
+
+    }
+
+    .main {
+        /* border: 2px solid white; */
+        width: 330px;
+        height: 1000px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 36%;
+        margin-top: 120px;
+        background-color: transparent;
+        box-shadow: 0px 0px 10px 2px;
+    }
+}
